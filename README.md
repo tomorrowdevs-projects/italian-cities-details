@@ -1,34 +1,15 @@
- Create an onboarding process using the attached mockup file.
+Create a Province / City selection with details
 ===============================
-
-![preview](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/preview.png "preview")
-
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/User_onboarding.fig)
 
 Requirements:
 ----------------
-- Respect exactly the provided layout
-- Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
-- The form should be validated and should prompt success or error messages
-- Error messages should be provided on each field
+1. The user should select a Province from a Dropdown menu with autocomplete functionality
+2. The user should select a City from a secondary Dropdown menu, dependant on the first one, showing only the cities related to the selected province, with autocomplete functionality
+3. Once selected, get details of the selected city from Wikipedia and show it to the page
 
-Level 1:
-----------------
-- Start the project using ReactJs
-- Implement all the components and layouts
-- Provide a validation for each field
-- Use state to store temporary values and show the steps
-- Write tests for each single validation
+Ps.
 
-Level 2:
-----------------
-- Use react-router to navigate between the steps
-- Find a strategy to save temporary values (eg. Context, Redux, LocalStorage)
-
-Level 3:
-----------------
-- Save results with Strapi (https://strapi.io)
-- Show a loader while calling the api and provide a feedback for success or error messages
+Use **Promises** or **async / await** to track the results of the APIs
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
 ===============================
